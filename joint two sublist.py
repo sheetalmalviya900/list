@@ -1,0 +1,9 @@
+a=[['a','b'],['b','c','d'],['e','f']]
+b=[['p','q'],['q','r','s'],['u','v']]
+i=0
+k=[]
+while(i<len(a)):
+    u=a[i]+b[i]
+    k.append(u)
+    i+=1
+print(k)

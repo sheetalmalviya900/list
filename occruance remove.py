@@ -1,0 +1,17 @@
+list=[3,2,4,1,1,5,1,1]
+i=0
+while(i<len(list)):
+    count=0
+    j=0
+    while(j<len(list)):
+        if(list[i]==list[j]):
+            count+=1
+            s=list[i]
+        j+=1
+        max=count
+        if(count>max):
+            max=count
+            s=list[i]
+    i+=1
+print(count)
+print(list.delete(s))

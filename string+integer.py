@@ -1,0 +1,9 @@
+a=["sheetal","aarti",'bhavna','rupa','saloni']
+b=[2,3,7,9,6]
+k=[]
+i=0
+while(i<len(a)):
+    l=a[i]+str(b[i])
+    k.append(l)
+    i+=1
+print(k)
